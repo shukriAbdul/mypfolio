@@ -198,7 +198,7 @@ display: flex;
   background-color: white;
   width: 400px;
   padding-bottom: 30px;
-box-shadow: 10px 5px 10px 30x gray;
+  box-shadow: 5px 5px 25px 0.5px  grey;
 }
 .icn{
   background-color: rgb(61, 74, 79);
@@ -221,11 +221,12 @@ box-shadow: 10px 5px 10px 30x gray;
 .contact_parent{
   display: flex;
   gap: 50px;
-  box-shadow: 10px 5px 10px 30x gray;
+  /* box-shadow: 10px 5px 10px 30x gray; */
   padding-left: 10rem;
   padding-right: 10rem;
 }
 .box_One{
+  box-shadow: 3px 3px 20px -5px  grey;
   background-color: white;
   width: 300px;
   justify-content: center;
@@ -250,7 +251,7 @@ box-shadow: 10px 5px 10px 30x gray;
   width: 500px;
   height: 500px;
   padding-bottom: 30px;
-box-shadow: 10px 5px 10px 30x gray;
+  box-shadow: 5px 5px 25px 0.5px grey;
 }
 .partOne img{
   width: 500px;
@@ -293,10 +294,10 @@ box-shadow: 10px 5px 10px 30x gray;
 
 
 
-
+/* 
 body{
-  background-color: rgb(216, 218, 218);
-}
+  background-color: rgb(248, 255, 255);
+} */
 
 /* responsive part */
 
@@ -334,12 +335,12 @@ section#hero{
     width: 300px;
 
   }
-  .Header_prnt{
+  /* .Header_prnt{
    
-    height: 70%;
+    height: 100%;
     justify-content: center;
    
-  }
+  } */
  
   .section_about{
 height: 550px;
@@ -362,7 +363,7 @@ padding-top: 22px;
   .text_prnt{
     position: absolute;
   border-radius: 12px;
-  box-shadow: 5px 5px 15px 0.5px rgb(19, 20, 20);
+  box-shadow: 5px 5px 25px 0.5px grey;
   margin-top: 15rem;
   margin-left: 43px;
   width: 80%;
@@ -383,7 +384,7 @@ padding-top: 22px;
   .Project_prnt{
     display: flex;
     flex-direction: column;
-    padding-left: 2rem;
+    padding-left: 1.5rem;
     width: 90%;
   }
   
